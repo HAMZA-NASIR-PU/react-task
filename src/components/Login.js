@@ -13,6 +13,7 @@ export default function Login() {
 
     const submitForm = () => {
         console.log("Form submit successfully....");
+        if(isEqual) return;
         setToken("DUMMY_TOKEN", "DUMMY_USER");
         // http.post('/login',
         //     {
